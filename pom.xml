@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -10,7 +9,7 @@
 
     <groupId>nl.ivonet</groupId>
     <artifactId>javaee7-essentials-archetype</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <packaging>maven-archetype</packaging>
     <name>javaee7-essentials-archetype</name>
 
@@ -114,7 +113,7 @@
         <connection>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</connection>
         <url>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</url>
         <developerConnection>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v0.0.3</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
