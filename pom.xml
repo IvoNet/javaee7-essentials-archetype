@@ -9,7 +9,7 @@
 
     <groupId>nl.ivonet</groupId>
     <artifactId>javaee7-essentials-archetype</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>maven-archetype</packaging>
     <name>javaee7-essentials-archetype</name>
 
@@ -98,7 +98,7 @@
         <connection>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</connection>
         <url>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</url>
         <developerConnection>scm:git:git@github.com:IvoNet/javaee7-essentials-archetype.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v0.0.2</tag>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
