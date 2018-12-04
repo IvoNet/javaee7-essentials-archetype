@@ -3,12 +3,30 @@
 
 This is a minimal Java 8 / Java EE 7 archetype.
 
-
-
-from the commandline:
+## Install in local repo
 
 ```bash
-mvn archetype:generate -Dfilter=nl.ivonet:javaee7-essentials-archetype
+mvn dependency:get \
+   -DgroupId=nl.ivonet \
+   -DartifactId=javaee7-essentials-archetype \
+   -Dversion=0.0.3
+   
+mvn archetype:crawl   
 ```
-to create a fully fledged Java EE 7 project. Use the most recent version if available.
 
+## Run from mvn central repo
+
+```bash
+mvn archetype:generate \
+    -DarchetypeGroupId=nl.ivonet \
+    -DarchetypeArtifactId=javaee7-essentials-archetype \
+    -DarchetypeVersion=0.0.3 -U
+```
+
+## Run if offline available
+
+```bash
+mvn archetype:generate -Dfilter=nl.ivonet:
+```
+
+this will filter the archetype list on my groupId
