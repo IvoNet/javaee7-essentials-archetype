@@ -3,6 +3,10 @@
 
 This is a minimal Java 8 / Java EE 7 archetype.
 
+# Get started
+
+* [Java EE /Jakarta EE - Initializr](http://ivo2u.nl/oq)
+
 ## Install in local repo
 
 ```bash
